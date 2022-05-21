@@ -1,3 +1,6 @@
+body {
+    background-color: white !important;
+}
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -71,7 +74,7 @@ body {
 
 }
 
-.navbar-light .navbar-brand {
+.navbar-brand {
     color: rgb(0, 0, 0);
     font-size: 25px;
     text-transform: uppercase;
@@ -133,7 +136,7 @@ body {
     display: grid;
     justify-items: center;
     background-image: url('../assets/images/back.png');
-    background-size: contain;
+    background-size: 25%;
     justify-content: center;
 }
 
@@ -149,8 +152,8 @@ body {
 }
 
 .main-program-footer-title {
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 4%;
+    padding-bottom: 5%;
     justify-content: center;
 }
 
@@ -226,7 +229,36 @@ h3 {
     margin-left: 6%;
 }
 
+.row {
+    width: 100%;
+}
+.partner-section .main-program-title {
+    padding-bottom: 0;
+}
+.partners-logo {
+    width: 150px;
+}
+.partner-container div {
+    margin: 25px;
+}
+.partner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.footer-section {
+    align-items: center;
+}
 @media screen and (max-width: 992px) {
+
     .navbar-brand {
         display: none;
     }
@@ -306,9 +338,19 @@ h3 {
         margin-left: 2%;
         margin-right: 2%;
     }
+    .footer {
+        display: none;
+    }
+    .partner-section {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 992px) {
+    .carousel-item img {
+     width: 100%;
+    
+    }
     .card {
         align-items: center;
     }
@@ -338,5 +380,8 @@ h3 {
     #project_container {
         padding-right: 10%;
         padding-left: 10%;
+    }
+    .partner-section {
+        background-color: #272a31;
     }
 }
