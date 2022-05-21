@@ -298,9 +298,11 @@ h3 {
     color: #ec5242;
     text-align: left;
   }
+
   .navbar-nav {
     height: 100vh;
-}
+  }
+
   .hello-tl {
     margin-left: 31px !important;
   }
@@ -437,15 +439,19 @@ h3 {
   .speaker-details {
     margin-top: 0;
   }
+
   .speaker-details p {
     font-size: 33px;
   }
+
   .speaker-details h3 {
     font-size: 2.75rem;
   }
+
   .f_speakers {
     font-size: 3rem;
   }
+
   .logo-main {
     color: white;
     font-size: 25px;
@@ -453,9 +459,11 @@ h3 {
     font-weight: bold;
     letter-spacing: 2px;
   }
+
   .partner-section {
     display: none;
   }
+
   .copyright {
     font-size: 23px;
   }
@@ -465,13 +473,15 @@ h3 {
   .carousel-item img {
     width: 100%;
   }
+
   .logo-main {
-    color:#272a31;
+    color: #272a31;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
   }
+
   .card {
     align-items: center;
   }
@@ -511,6 +521,7 @@ h3 {
   .main-program-footer-title-mobile {
     display: none;
   }
+
   .footer {
     padding-left: 10%;
     padding-right: 10%;

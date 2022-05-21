@@ -121,25 +121,31 @@ body {
     width: 120%;
     font-size: 4em;
   }
-.navbar-nav {
+
+  .navbar-nav {
     height: 100vh;
-}
-.contact-header {
-    font-size: 24px;
-}
-.header-desctiption {
+  }
+
+  .contact-header {
     font-size: 24px;
   }
+
+  .header-desctiption {
+    font-size: 24px;
+  }
+
   .partner-section {
     display: block;
     background-color: #272a31;
   }
+
   .about-logo p {
     font-size: 24px;
   }
+
   .footer-about {
     display: flex;
-    background-color: #ffffff;
+    background-color: #fff;
     padding-left: 10%;
     padding-right: 10%;
     color: white;
@@ -147,17 +153,16 @@ body {
     padding-bottom: 20px;
     align-items: center;
     justify-content: center;
-
   }
+
   .about-copyright {
-      color: #272a31;
-      font-size: 20px;
+    color: #272a31;
+    font-size: 20px;
   }
 
   .past-posts div {
     margin-bottom: 3%;
   }
-
 }
 
 @media screen and (min-width: 992px) {
