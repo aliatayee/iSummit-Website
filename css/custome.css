@@ -302,6 +302,10 @@ h3 {
   .navbar-nav {
     height: 100vh;
   }
+  
+  .ml-auto {
+    font-size: 30px;
+  }
 
   .hello-tl {
     margin-left: 31px !important;
