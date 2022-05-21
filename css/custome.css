@@ -1,6 +1,7 @@
 body {
     background-color: white !important;
 }
+
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -18,7 +19,7 @@ body {
 }
 
 .carousel-caption {
-    bottom: 270px;
+    bottom: 50px;
 }
 
 .carousel-indicators li {
@@ -36,11 +37,44 @@ body {
     margin-top: 25px;
 }
 
+
 .carousel-caption p {
-    width: 75%;
-    margin: auto;
-    font-size: 18px;
-    line-height: 1.9;
+    font-size: 19px;
+    color: #ec5242;
+    text-align: left;
+
+}
+
+.hello-tl {
+    margin-left: 31px !important;
+}
+
+.landing-desc p {
+    color: #272a31;
+    margin-top: 70%;
+    background-color: #eaeaea;
+    border: 1px solid white;
+    width: 80%;
+    padding: 20px
+}
+
+.date {
+    color: #272a31;
+    text-transform: uppercase;
+    font-family: cocogoose, sans-serif;
+    font-size: 3em;
+    line-height: 100%;
+    text-align: left;
+    margin-top: 40px;
+
+}
+
+.header-address {
+    font-size: 30px !important;
+    color:#272a31 !important;
+    margin-left: 0 !important;
+    text-align: left !important;
+    width: 100% !important;
 }
 
 body {
@@ -50,7 +84,7 @@ body {
 
 .landing-title {
     position: absolute;
-    top: 50%;
+    top: 55%;
     right: 50%;
     z-index: 9999999;
     transform: translate(50%, -50%);
@@ -60,6 +94,7 @@ body {
     line-height: 100%;
     text-align: left;
     color: #fd412e;
+    width: 100%;
 }
 
 .landing-slogan {
@@ -106,6 +141,7 @@ body {
     width: 4.5em;
     height: 3.5em;
 }
+
 .navbar-nav {
     text-align: center;
 }
@@ -122,7 +158,7 @@ body {
     padding: 1px 5px;
     font-size: 18px;
     line-height: 0.3;
-  
+
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -219,7 +255,7 @@ h3 {
 
 .title-speaker {
     font-family: Inter, sans-serif;
-    color : #ec5242;
+    color: #ec5242;
     font-style: italic;
 }
 
@@ -229,18 +265,23 @@ h3 {
     margin-left: 6%;
 }
 
+
 .row {
     width: 100%;
 }
+
 .partner-section .main-program-title {
     padding-bottom: 0;
 }
+
 .partners-logo {
     width: 150px;
 }
+
 .partner-container div {
     margin: 25px;
 }
+
 .partner-container {
     display: flex;
     justify-content: space-between;
@@ -248,20 +289,68 @@ h3 {
     justify-content: center;
     margin-bottom: 2%;
 }
+
 .footer {
     height: 100px;
     display: flex;
     justify-content: space-around;
     background-color: white;
 }
+
 .footer-section {
     align-items: center;
 }
+
 @media screen and (max-width: 992px) {
 
+    .carousel-caption {
+        bottom: 556px;
+        height: 40%;
+    }
+
+    .carousel-caption p {
+        font-size: 36px;
+        color: #ec5242;
+        text-align: left;
+
+    }
+
+    .hello-tl {
+        margin-left: 31px !important;
+    }
+
+    .landing-desc p {
+        color: #272a31;
+
+        margin-top: 40%;
+        background-color: #eaeaea;
+        border: 1px solid white;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .date {
+        color: #272a31;
+        text-transform: uppercase;
+        font-family: cocogoose, sans-serif;
+        font-size: 3em;
+        line-height: 100%;
+        text-align: left;
+        margin-top: 40px;
+
+    }
+
+    .header-address {
+        font-size: 30px !important;
+        color:#272a31 !important;
+        margin-left: 0 !important;
+        text-align: left !important;
+        width: 100% !important;
+    }
     .navbar-brand {
         display: none;
     }
+
     .carousel-inner {
         height: 100%;
     }
@@ -272,10 +361,11 @@ h3 {
     }
 
     .carousel-img {
-        width: 157%!important;
+        width: 157% !important;
         position: absolute;
         right: -31%;
     }
+
     .icon-box {
         display: flex;
         width: 120px;
@@ -295,7 +385,20 @@ h3 {
     }
 
     .main-program-footer-title {
-        padding-bottom: 8%;
+        display: none;
+    }
+
+    .main-program-footer-title-mobile h5 {
+        background-color: #ec5242;
+        padding: 60px;
+        padding-right: 21%;
+        padding-left: 21%;
+        font-size: 40px;
+        color: white !important;
+        text-decoration: none;
+        margin: 0 auto;
+        margin-bottom: 8%;
+
     }
 
     .cards-row {
@@ -334,13 +437,16 @@ h3 {
         font-size: 26px;
         text-align: left;
     }
+
     #project_container {
         margin-left: 2%;
         margin-right: 2%;
     }
+
     .footer {
         display: none;
     }
+
     .partner-section {
         display: none;
     }
@@ -348,9 +454,10 @@ h3 {
 
 @media screen and (min-width: 992px) {
     .carousel-item img {
-     width: 100%;
-    
+        width: 100%;
+
     }
+
     .card {
         align-items: center;
     }
@@ -377,11 +484,17 @@ h3 {
     .icon-box img {
         width: 55%;
     }
+
     #project_container {
         padding-right: 10%;
         padding-left: 10%;
     }
+
     .partner-section {
         background-color: #272a31;
+    }
+
+    .main-program-footer-title-mobile {
+        display: none;
     }
 }
