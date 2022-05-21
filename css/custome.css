@@ -303,8 +303,8 @@ h3 {
     height: 100vh;
   }
 
-  .ml-auto {
-    font-size: 30px;
+  .ml-auto li a {
+    font-size: 32px;
   }
 
   .hello-tl {
