@@ -91,7 +91,7 @@ body {
 }
 
 .hr-long {
-  width: 100%;
+  width: 97%;
   border: 1px solid #eaeaea;
 }
 
@@ -121,19 +121,43 @@ body {
     width: 120%;
     font-size: 4em;
   }
-
+.navbar-nav {
+    height: 100vh;
+}
+.contact-header {
+    font-size: 24px;
+}
+.header-desctiption {
+    font-size: 24px;
+  }
   .partner-section {
     display: block;
     background-color: #272a31;
   }
-
-  .footer {
+  .about-logo p {
+    font-size: 24px;
+  }
+  .footer-about {
     display: flex;
+    background-color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .about-copyright {
+      color: #272a31;
+      font-size: 20px;
   }
 
   .past-posts div {
     margin-bottom: 3%;
   }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -146,11 +170,13 @@ body {
     color: rgb(255 248 248);
   }
 
-  .footer {
+  .footer-about {
     background-color: #272a31;
     padding-left: 10%;
     padding-right: 10%;
+    height: 100px;
     color: white;
+    display: flex;
   }
 
   .partner-section {
